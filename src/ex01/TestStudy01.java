@@ -41,7 +41,7 @@ public class TestStudy01 {
 		process();
 		output();
 	}
-// input();
+// input() - 메소드(java, C#), UML(operation), 멤버함수(C++)
 	private static void input() {
 		Scanner in = new Scanner(System.in);
 		
