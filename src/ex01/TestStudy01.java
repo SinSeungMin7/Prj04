@@ -25,7 +25,7 @@ num,name,tot,avg,grade
 */
 
 public class TestStudy01 {
-	
+	// 전역변수 영역 - Field변수(java C#), member변수 (c++)
 	static int num;
 	static String name;
 	static int kor;
