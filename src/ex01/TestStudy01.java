@@ -40,7 +40,7 @@ public class TestStudy01 {
 		process();
 		output();
 	}
-
+// input();
 	private static void input() {
 		Scanner in = new Scanner(System.in);
 		
@@ -55,7 +55,7 @@ public class TestStudy01 {
 		eng = Integer.parseInt(li[3].trim());
 		math = Integer.parseInt(li[4].trim());		
 	}
-
+	//process()
 	private static void process() {
 		
 		tot    = kor + eng + math;
@@ -63,7 +63,7 @@ public class TestStudy01 {
 		char [] g = {'F','F','F','F','F','F','D','C','B','A','A'};
 		grade = g [(int)avg/10];
 	}
-
+	// output()
 	private static void output() {
 		System.out.println("output");
 		System.out.println("번호 이름    총점  평균  등급");
